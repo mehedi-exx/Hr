@@ -1,0 +1,5 @@
+aiogram==3.21.0
+mysql-connector-python==9.4.0
+python-dotenv==1.1.1
+cryptography==43.0.3
+
