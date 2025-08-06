@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System - Telegram Bot</title>
+    <meta name="description" content="Professional Telegram bot for employee management with subscription-based licensing and multi-company support.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-users"></i>
+                <span>EMS Bot</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#docs" class="nav-link">Documentation</a></li>
+                <li><a href="#support" class="nav-link">Support</a></li>
+                <li><a href="#get-started" class="nav-link cta-button">Get Started</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Manage Your Team
+                    <span class="gradient-text">Through Telegram</span>
+                </h1>
+                <p class="hero-description">
+                    Professional employee management system powered by Telegram bot technology. 
+                    Secure, scalable, and subscription-based with multi-company support.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#get-started" class="btn btn-primary">
+                        <i class="fab fa-telegram"></i>
+                        Start Free Trial
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Companies</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Employees</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="telegram-chat">
+                            <div class="chat-header">
+                                <i class="fas fa-robot"></i>
+                                <span>EMS Bot</span>
+                                <div class="online-indicator"></div>
+                            </div>
+                            <div class="chat-messages">
+                                <div class="message bot-message">
+                                    <div class="message-content">
+                                        Welcome to Employee Management System! 👋
+                                    </div>
+                                </div>
+                                <div class="message user-message">
+                                    <div class="message-content">
+                                        /employees
+                                    </div>
+                                </div>
+                                <div class="message bot-message">
+                                    <div class="message-content">
+                                        📊 <strong>Company Employees</strong><br><br>
+                                        1. John Doe (ID: EMP001)<br>
+                                        💼 Senior Developer<br><br>
+                                        2. Jane Smith (ID: EMP002)<br>
+                                        💼 HR Manager
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features for Modern Teams</h2>
+                <p>Everything you need to manage your employees efficiently through Telegram</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Role-Based Access</h3>
+                    <p>Three distinct user roles with appropriate permissions: Main Admin, Company Owner, and Employee.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Multi-Company Support</h3>
+                    <p>Each company operates with isolated data and separate subscriptions for complete privacy.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Flexible Subscriptions</h3>
+                    <p>Choose from 1-month, 6-month, or lifetime plans with automated payment processing.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Complete Employee Management</h3>
+                    <p>Full CRUD operations for employee records with comprehensive data fields.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Real-time Notifications</h3>
+                    <p>Instant notifications for payments, registrations, and important system events.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics & Reporting</h3>
+                    <p>Comprehensive usage logs, payment tracking, and company statistics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Get started in minutes with our simple three-step process</p>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Register Your Company</h3>
+                        <p>Send /start to our bot and enter your company details. Choose your subscription plan.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Complete Payment</h3>
+                        <p>Secure payment processing with instant activation. Admin receives notification.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Managing</h3>
+                        <p>Add employees, manage data, and enjoy full access to all features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Choose the plan that fits your business needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited employees</li>
+                        <li><i class="fas fa-check"></i> Full data management</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                        <li><i class="fas fa-check"></i> Regular updates</li>
+                    </ul>
+                    <a href="#get-started" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Business</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">149.99</span>
+                            <span class="period">/6 months</span>
+                        </div>
+                        <div class="savings">Save $30</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Starter</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                        <li><i class="fas fa-check"></i> Advanced analytics</li>
+                        <li><i class="fas fa-check"></i> Custom integrations</li>
+                    </ul>
+                    <a href="#get-started" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">499.99</span>
+                            <span class="period">lifetime</span>
+                        </div>
+                        <div class="savings">Best Value</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Business</li>
+                        <li><i class="fas fa-check"></i> Lifetime access</li>
+                        <li><i class="fas fa-check"></i> No recurring fees</li>
+                        <li><i class="fas fa-check"></i> Dedicated support</li>
+                    </ul>
+                    <a href="#get-started" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="documentation">
+        <div class="container">
+            <div class="section-header">
+                <h2>Documentation & Resources</h2>
+                <p>Everything you need to get started and make the most of our system</p>
+            </div>
+            <div class="docs-grid">
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Quick Start Guide</h3>
+                    <p>Get up and running in minutes with our step-by-step setup guide.</p>
+                    <a href="quick-start.html" class="doc-link">Read Guide <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Installation Guide</h3>
+                    <p>Detailed instructions for deploying the bot to your own infrastructure.</p>
+                    <a href="installation.html" class="doc-link">View Instructions <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3>API Reference</h3>
+                    <p>Complete reference for all bot commands and their usage.</p>
+                    <a href="api-reference.html" class="doc-link">Browse API <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>FAQ</h3>
+                    <p>Answers to frequently asked questions and troubleshooting tips.</p>
+                    <a href="faq.html" class="doc-link">View FAQ <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support" class="support">
+        <div class="container">
+            <div class="section-header">
+                <h2>Need Help?</h2>
+                <p>We're here to support you every step of the way</p>
+            </div>
+            <div class="support-grid">
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Telegram Support</h3>
+                    <p>Get instant help through our bot's built-in support system.</p>
+                    <a href="https://t.me/your_bot_username" class="support-link">Contact via Bot</a>
+                </div>
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Support</h3>
+                    <p>Send us an email for detailed technical assistance.</p>
+                    <a href="mailto:support@yourcompany.com" class="support-link">Send Email</a>
+                </div>
+                <div class="support-card">
+                    <div class="support-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub Issues</h3>
+                    <p>Report bugs or request features on our GitHub repository.</p>
+                    <a href="https://github.com/yourusername/employee-management-bot" class="support-link">View Repository</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="get-started" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Employee Management?</h2>
+                <p>Join hundreds of companies already using our Telegram bot for efficient employee management.</p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/your_bot_username" class="btn btn-primary btn-large">
+                        <i class="fab fa-telegram"></i>
+                        Start Your Free Trial
+                    </a>
+                    <a href="#docs" class="btn btn-secondary btn-large">
+                        <i class="fas fa-book"></i>
+                        View Documentation
+                    </a>
+                </div>
+                <div class="cta-note">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>No credit card required • 30-day money-back guarantee</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-users"></i>
+                        <span>EMS Bot</span>
+                    </div>
+                    <p>Professional employee management through Telegram bot technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#docs">Documentation</a></li>
+                        <li><a href="api-reference.html">API Reference</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#support">Help Center</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="quick-start.html">Quick Start</a></li>
+                        <li><a href="installation.html">Installation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Employee Management System. All rights reserved.</p>
+                <p>Built with ❤️ for efficient team management</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
